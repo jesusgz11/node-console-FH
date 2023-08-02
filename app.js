@@ -55,8 +55,7 @@ const main = async () => {
       default:
         break;
     }
-
-    await pausa();
+    if (opt !== '0') await pausa();
   } while (opt !== '0');
 };
 

@@ -57,7 +57,7 @@ export const pausa = async () => {
     },
   ];
 
-  console.log('\n');
+  console.log();
   await inquirer.prompt(question);
 };
 
